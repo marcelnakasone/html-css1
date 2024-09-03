@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h1 { 
+    color: dodgerblue;
+    background-color: bisque;
+
+}
+
+h2 {
+    color: salmon;
+}
+
+p {
+    text-align: justify;
+}

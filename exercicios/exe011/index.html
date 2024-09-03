@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+        <h1>Imagens Flexiveis</h1>
+        <p>Mudança de imagens com forme o tamanho da página a ser carregado</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+
+        <h1>Audio</h1>
+        <p>Reproduzindo audios em HTML5</p>
+
+        <audio src="midia/Window Demons - roljui.mp3" controls></audio>
+        
+</body>
+</html>
